@@ -1,0 +1,28 @@
+.main-content{
+    width: 80%;
+    margin: .8rem auto;
+}
+.home-marketing{
+    padding: 2.6rem 0.6rem;
+    background-color: var(--clr-primary);
+    font-size: 2rem;
+    color: var(--clr-white);
+}
+
+.blog-content {
+    width: 100%;
+    margin-top: .8rem;
+    display: grid;
+    gap: .8rem;
+    grid-template-columns: 75fr 25fr;
+}
+
+.blog-posts {
+    display: grid;
+    row-gap: 1.8rem;
+    column-gap: .8rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog-sidebar{
+    background-color: var(--clr-white);
+}

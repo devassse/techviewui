@@ -1,0 +1,14 @@
+.copyrights{
+    width: 100%;
+    text-align: center;
+    background-color: var(--clr-secondary);
+    padding: 1rem;
+    color: var(--clr-white);
+    font-size: 12px;
+}
+.copyrights a{
+    color: var(--clr-white);
+}
+.copyrights a:hover{
+    text-decoration: none;
+}
