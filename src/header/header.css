@@ -1,0 +1,60 @@
+.header {
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: 60fr 20fr 20fr;
+    gap: .8rem;
+}
+.main-new{
+    grid-row: 1 / span 2;
+}
+.main-new,
+.primary-new,
+.secondary-new,
+.third-new,
+.fouth-new{
+    background-color: var(--clr-secondary-lighter);
+    position: relative;
+    overflow: hidden;
+}
+.main-new img,
+.primary-new img,
+.secondary-new img,
+.third-new img,
+.fouth-new img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.4);
+    transition: 0.3s;
+}
+.main-new img:hover,
+.primary-new img:hover,
+.secondary-new img:hover,
+.third-new img:hover,
+.fouth-new img:hover{
+    transform: scale(1.02);
+}
+
+.main-captions,
+.news-captions{
+    position: absolute;
+    padding: 1.2rem;
+    top: 0;
+    color: var(--clr-white);
+}
+.main-captions a,
+.news-captions a{
+    color: var(--clr-white);
+}
+.main-captions h3{
+    font-size: 2.4rem;
+}
+.news-captions h3{
+    font-size: 1.6rem;
+}
+.main-captions p{
+    line-height: 1.8rem;
+}
+.main-captions a {
+    display: inline-block;
+    margin-top: 1.2rem;
+}

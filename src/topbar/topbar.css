@@ -1,0 +1,74 @@
+.top{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 6px var(--clr-secondary);
+    background-color: var(--clr-white);
+    padding: 0 2.2rem;
+    z-index: 2;
+}
+.logo,
+.social {
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    flex: 8;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.menu ul {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    padding: 1.4rem 1rem 1rem 1.2rem;
+    border-bottom: 0.2rem solid transparent;
+    transition: .3s
+}
+.menu ul li:hover,
+.menu ul li:focus,
+.menu ul li:active{
+    background-color: var(--clr-secondary-lighter);
+    border-bottom: 0.2rem solid var(--clr-secondary);
+}
+.menu ul .language:hover,
+.menu ul .search:hover{
+    background: none;
+    border-bottom: 0.2rem solid transparent;
+}
+.menu ul li a{
+    padding: inherit;
+    text-decoration: none;
+    color: var(--clr-primary);
+    font-weight: 500;
+}
+
+.menu ul li a:hover{
+    color: var(--clr-secondary);
+}
+.language {
+    margin-right: -2.8rem;
+}
+
+.social {
+    justify-content: end;
+}
+.media {
+    display: flex;
+}
+.media i{
+    margin-right: .8rem
+}
+.profile img{
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}

@@ -1,0 +1,30 @@
+:root {
+  --clr-primary: #16537d;
+  --clr-secondary: #082c45;
+  --clr-dark: #282c34;
+  --clr-secondary-lighter: #282c3414;
+
+  --clr-white: #fff;
+  --clr-black: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  height: 100%;
+  /* background-color: #000; */
+  /* background-image: url("../public/assets/imgs/bg-techview.webp"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.card{
+  background-color: var(--clr-white);
+  box-shadow: 0 0 1px var(--clr-dark);
+}

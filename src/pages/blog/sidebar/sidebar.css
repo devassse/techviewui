@@ -1,0 +1,74 @@
+.sidebar {
+  height: 100%;
+}
+.search-posts {
+  position: relative;
+}
+.search-posts input {
+  width: 100%;
+  padding: 0.6rem 0.4rem;
+  border: 1px solid var(--clr-primary);
+  position: relative;
+  outline: none;
+  overflow: hidden;
+}
+.search-posts input:focus{
+    box-shadow: 0 0 6px var(--clr-primary);
+}
+.search-posts button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  border: none;
+  background-color: var(--clr-primary);
+  cursor: pointer;
+}
+.sidebar-card{
+    padding: .8rem;
+    margin-top: .8rem;
+}
+.top-posts {
+    margin-top: 1.2rem;
+}
+.top-posts ul{
+    list-style: none;
+}
+.top-posts ul a{
+    color: var(--clr-primary);
+}
+.tags{
+    margin-top: 1.2rem;
+}
+.tags h4{
+    margin-bottom: .4rem;
+}
+.tags a{
+    display: inline-block;
+    background-color: var(--clr-secondary-lighter);
+    padding: .4rem;
+    margin-top: .4rem;
+    margin-right: .4rem;
+    text-decoration: none;
+    color: var(--clr-primary);
+}
+.insta{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+}
+.insta h4{
+    margin: 1.6rem 0 .4rem 0;
+    flex-basis: 100%;
+}
+.insta img{
+    max-width: 20%;
+}
+
+.aside-marketing{
+    margin-top: 1.2rem;
+    padding: 4.8rem 1rem;
+    font-size: 2.2rem;
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+}

@@ -1,0 +1,22 @@
+.post-card img{
+    width: 100%;
+}
+
+.post-card h4{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+.post-card h4 a{
+    text-decoration: none;
+}
+.post-card p{
+    line-height: 1.4rem;
+}
+.post-card a{
+    color: var(--clr-dark);
+    display: inline-block;
+    margin-top: .8rem;
+}
+.captions {
+    padding: 1.2rem;
+}
